@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTripSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MakeMyTripFlightSearch(failed)">
+    <classes>
+      <class name="SDET.comprehensive.searchFlights">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testFlightSearch"/>
+        </methods>
+      </class> <!-- SDET.comprehensive.searchFlights -->
+    </classes>
+  </test> <!-- MakeMyTripFlightSearch(failed) -->
+</suite> <!-- Failed suite [MakeMyTripSuite] -->
